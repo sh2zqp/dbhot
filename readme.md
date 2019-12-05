@@ -38,3 +38,23 @@
 	7. 查看版本记录
 		git log
 
+#### 2.2 拓展新功能
+
+	git add .
+	git commit -m '直播专区'
+	
+	git add .
+	git commit -m '短视频专区'
+
+#### 2.3 “短视频事件”
+
+- 回滚到之前的版本
+	
+		git log
+		git reset --hard 版本号
+
+- 回滚之后版本
+
+		git reflog
+		git reset --hard 版本号
+
