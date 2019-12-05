@@ -58,3 +58,10 @@
 		git reflog
 		git reset --hard 版本号
 
+- git三个区域切换命令
+
+		git reset --soft 版本号
+		git reset HEAD -- 文件名
+		git checkout -- 文件名  对修改的文件有效
+		git reset --mix 版本号
+		git reset --hard 版本号
