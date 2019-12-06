@@ -38,7 +38,7 @@
 	7. 查看版本记录
 		git log
 
-#### 2.2 拓展新功能
+#### 2.2 第二阶段：拓展新功能
 
 	git add .
 	git commit -m '直播专区'
@@ -46,7 +46,7 @@
 	git add .
 	git commit -m '短视频专区'
 
-#### 2.3 “短视频事件”
+#### 2.3 第三阶段：“短视频事件”
 
 - 回滚到之前的版本
 	
@@ -60,8 +60,44 @@
 
 - git三个区域切换命令
 
+	>见图：C:\Users\sh2zqp\Desktop\dbhot\image\readme\git工作区转换.png
+
 		git reset --soft 版本号
 		git reset HEAD -- 文件名
 		git checkout -- 文件名  对修改的文件有效
 		git reset --mix 版本号
 		git reset --hard 版本号
+
+#### 2.4 第四阶段：商城功能&紧急bug修复
+
+- 分支
+
+	> 分支可以给开发者提供多个环境使用，意味着你可以把你的工作从开发主线（master）上分离出来，以免影响开发主线。
+
+- 紧急修复bug方案
+
+	>见图：C:\Users\sh2zqp\Desktop\dbhot\image\readme\Bug紧急修复示意图及工作流.png
+
+- 命令小结
+
+	- 查看分支
+				
+			git branch
+
+	- 创建分支
+
+			git branch 分支名
+
+	- 切换分支
+
+			git checkout 分支名
+
+	- 分支合并（可能产生冲突）
+
+			git merge 要合并的分支
+			注意：切换分支再合并
+
+	- 删除分支
+
+			git branch -d 分支名
+
