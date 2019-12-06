@@ -101,3 +101,20 @@
 
 			git branch -d 分支名
 
+#### 2.5 第五阶段：进军三里屯
+
+- 家里和公司两地开发，需要借助远程仓库Github
+
+
+- 常用命令
+
+		本地创建远程仓库别名
+		git remote add origin 远程仓库地址（origin为别名，可以任意，与下面对应）
+
+		往远程仓库推代码
+		git push -u origin master(分支名)
+
+		远程仓库克隆代码 
+		git clone https://github.com/sh2zqp/dbhot.git（内部已默认本地创建远程仓库别名，分支也复制下来）
+		
+
