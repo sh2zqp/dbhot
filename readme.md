@@ -117,4 +117,6 @@
 		远程仓库克隆代码 
 		git clone https://github.com/sh2zqp/dbhot.git（内部已默认本地创建远程仓库别名，分支也复制下来）
 		
-
+		从远程仓库拉代码
+		git pull origin dev
+		
